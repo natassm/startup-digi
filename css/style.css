@@ -1478,12 +1478,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 7, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
@@ -2020,17 +2020,17 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam_1.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
 .bradcam_bg_2 {
-  background-image: url(../img/banner/bradcam_2.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 7, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
 .bradcam_bg_3 {
-  background-image: url(../img/banner/bradcam_3.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 10, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
@@ -2407,7 +2407,7 @@ h3 {
   transform: translateX(-50%);
   content: '';
   background: rgba(255, 255, 255, 0.2);
-  height: 73%;
+  height: 100%;
   width: 1px;
   top: 0;
   bottom: 0;
@@ -2418,7 +2418,7 @@ h3 {
   .program_details_area .program_detail_wrap::before {
     left: 13px;
     transform: translateX(0);
-    height: 75%;
+    height: 100%;
   }
 }
 
