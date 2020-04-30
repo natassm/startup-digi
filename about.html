@@ -67,7 +67,6 @@
                                                     <li><a href="single-blog.html">single-blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -75,7 +74,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="buy_tkt">
                                     <div class="book_btn d-none d-lg-block">
-                                        <a href="#">Book Your Seat</a>
+                                        <a href="book_seat.html">Book Your Seat</a>
                                     </div>
                                 </div>
                             </div>
@@ -144,155 +143,13 @@
                             bidang untuk membangun Start Up yaitu Frontend, Backend 
                             dan UI/UX Designer</p>
                             <p  class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">So tunggu apa lagi? Daftar yuk!</p>
-                        <a href="#" class="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">BOOK YOUR SEAT</a>
+                        <a href="book_seat.html" class="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">BOOK YOUR SEAT</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- about_area_end  -->
-
-    <!-- performar_area_start  -->
-    <div class="performar_area black_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title mb-80">
-                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Speakers</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                <div data-tilt class="thumb">
-                                    <img src="img/performer/1.jpg" alt="">
-                                </div>
-                                <div class="performer_heading">
-                                    <h4>Tivo Yudha Perwira</h4>
-                                    <span>Mobile Developer at Soul Parking</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div  class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                <div data-tilt class="thumb">
-                                    <img src="img/performer/2.jpg" alt="">
-                                </div>
-                                <div class="performer_heading">
-                                    <h4>Adhi Prasetio</h4>
-                                    <span>Lecturer at Telkom University</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                <div  data-tilt class="thumb">
-                                    <img src="img/performer/3.jpeg" alt="">
-                                </div>
-                                <div class="performer_heading">
-                                    <h4>Nabilah Ulfah Amalia</h4>
-                                    <span>UI/UX Designer at Bukalapak</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- performar_area_end  -->
-
-    <!-- map_area_start  -->
-    <div class="map_area">
-        <div id="map" style="height: 600px; position: relative; overflow: hidden;">
-        
-        </div>
-        <script>
-            function initMap() {
-                var uluru = {
-                    lat: -25.363,
-                    lng: 131.044
-                };
-                var grayStyles = [{
-                        featureType: "all",
-                        stylers: [{
-                                saturation: -90
-                            },
-                            {
-                                lightness: 50
-                            }
-                        ]
-                    },
-                    {
-                        elementType: 'labels.text.fill',
-                        stylers: [{
-                            color: '#ccdee9'
-                        }]
-                    }
-                ];
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    center: {
-                        lat: -31.197,
-                        lng: 150.744
-                    },
-                    zoom: 9,
-                    styles: grayStyles,
-                    scrollwheel: false
-                });
-            }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
-        </script>
-        <div class="location_information black_bg wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-            <h3>StartUp with Digital Creative</h3>
-            <div class="info_wrap">
-                <div class="single_info">
-                    <span>Vanue:</span>
-                    <p>Auditorium K-301</p>
-                </div>
-                <div class="single_info">
-                    <span>Phone:</span>
-                    <p>+10 (88) 267 368 283</p>
-                </div>
-                <div class="single_info">
-                    <span>Email:</span>
-                    <p>contact@digi.com</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- map_area_end  -->
-
-    <!-- brand_area_start  -->
-    <div class="brand_area black_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title text-center mb-80">
-                        <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Sponsors</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="brand_wrap">
-                        <div class="brand_active owl-carousel">
-                            <div class="single_brand text-center">
-                                <img src="img/brand/1.png" alt="">
-                            </div>
-                            <div class="single_brand text-center">
-                                <img src="img/brand/2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- brand_area_end  -->
     
     <!-- footer_start  -->
     <footer class="footer">
@@ -305,7 +162,7 @@
                                 <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">10 Juni 2020</h4>
                                 <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Auditorium K-301</h3>
                                 <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Seminar StartUp with Digital Creative sebagai event besar pertama Komunita Android CCIT FTUI yang akan menambah pengetahuanmu.</p>
-                                <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">BOOK YOUR SEAT</a>
+                                <a href="book_seat.html" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">BOOK YOUR SEAT</a>
                             </div>
                         </div>
                     </div>
