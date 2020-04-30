@@ -135,8 +135,8 @@
                                     <img src="img/performer/1.jpg" alt="">
                                 </div>
                                 <div class="performer_heading">
-                                    <h4>Tivo Yudha Perwira</h4>
-                                    <span>Mobile Developer at Soul Parking</span>
+                                    <h4 id="speaker1"></h4>
+                                    <span id="profession1"></span>
                                 </div>
                             </div>
                         </div>
@@ -146,8 +146,8 @@
                                     <img src="img/performer/2.jpg" alt="">
                                 </div>
                                 <div class="performer_heading">
-                                    <h4>Adhi Prasetio</h4>
-                                    <span>Lecturer at Telkom University</span>
+                                    <h4 id="speaker2"></h4>
+                                    <span id="profession2"></span>
                                 </div>
                             </div>
                         </div>
@@ -157,8 +157,8 @@
                                     <img src="img/performer/3.jpeg" alt="">
                                 </div>
                                 <div class="performer_heading">
-                                    <h4>Nabilah Ulfah Amalia</h4>
-                                    <span>UI/UX Designer at Bukalapak</span>
+                                    <h4 id="speaker3"></h4>
+                                    <span id="profession3"></span>
                                 </div>
                             </div>
                         </div>
@@ -418,6 +418,28 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
+
+    <!-- JSON speaker here -->
+    <script>
+        var Frontend,Backend, UiUx, a,b,c,d,e,f;
+        Frontend = {"name":"Tivo Yudha Perwira", "profession":"Mobile Developer at Soul Parking"};
+        BackEnd = {"name":"Adhi Prasetio", "profession":"Lecturer at Telkom University"};
+        UiUx = {"name":"Nabilah Ulfah Amalia", "profession":"UI/UX Designer at Bukalapak"};
+
+        a = Frontend["name"];
+        b = Frontend["profession"];
+        c = BackEnd["name"];
+        d = BackEnd["profession"];
+        e = UiUx["name"];
+        f = UiUx["profession"];
+
+        document.getElementById("speaker1").innerHTML = a;
+        document.getElementById("profession1").innerHTML = b;
+        document.getElementById("speaker2").innerHTML = c;
+        document.getElementById("profession2").innerHTML = d;
+        document.getElementById("speaker3").innerHTML = e;
+        document.getElementById("profession3").innerHTML = f;
+    </script>
 
     <script>
         // koordinat dan zoom view peta
