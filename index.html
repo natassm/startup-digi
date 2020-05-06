@@ -8,33 +8,18 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
-
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-    <!-- header-start -->
+    <!-- header -->
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
@@ -54,20 +39,15 @@
                                         <ul id="navigation">
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="performer.html">Speaker</a></li>
-                                            
                                             <li><a href="#">Pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
                                                     <li><a href="about.html">About Event</a></li>
                                                     <li><a href="Program.html">Seminar Timeline</a></li>
                                                     <li><a href="Venue.html">Venue</a></li>
+                                                    <li><a href="Team.html">Committee</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">Blog <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="blog.html">Our Blog</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -84,7 +64,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -327,7 +306,7 @@
     <div id="map" style="width: 100%;height: 500px;"></div>
     <!-- map_area_end  -->
 
-    <!-- brand_area_start  -->
+    <!-- sponsor -->
     <div class="brand_area black_bg">
         <div class="container">
             <div class="row">
@@ -344,16 +323,23 @@
                             <div class="single_brand text-center">
                                 <img src="img/brand/1.png" alt="">
                             </div>
+                            <br>
                             <div class="single_brand text-center">
                                 <img src="img/brand/2.png" alt="">
                             </div>
+                            <br>
+                            <div class="single_brand text-center">
+                                <img src="img/brand/3.png" alt="">
+                            </div>
+                            <br>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- brand_area_end  -->
+    <!-- sponsor end -->
+
     <!-- footer_start  -->
     <footer class="footer">
         <div class="footer_top">
@@ -364,23 +350,10 @@
                             <div class="address_details text-center">
                                 <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">10 Juni 2020</h4>
                                 <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Auditorium K-301</h3>
-                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Seminar StartUp with Digital Creative sebagai event besar pertama Komunita Android CCIT FTUI yang akan menambah pengetahuanmu.</p>
+                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Seminar StartUp with Digital Creative sebagai event besar pertama Komunitas Android CCIT FTUI yang akan menambah pengetahuanmu.</p>
                                 <a href="book_seat.html" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">BOOK YOUR SEAT</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
                     </div>
                 </div>
             </div>
@@ -396,6 +369,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
 
     <!-- JSON speaker here -->
     <script>
@@ -418,20 +392,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         document.getElementById("speaker3").innerHTML = e;
         document.getElementById("profession3").innerHTML = f;
     </script>
+    <!-- JSON speaker end -->
 
+    <!-- Map -->
     <script>
-        // koordinat dan zoom view peta
-        // Koordinat yang digunakan berupa latitude dan longitude,
-        //sebagai contoh saya menggunakan Koordinat CCIT
-        var map = L.map('map').setView([-6.362141, 106.824923], 17);
-        // ini adalah copyright, bisa dicopot tapi lebih baik kita hargai sang penciptanya ya :)
+        var map = L.map('map').setView([-6.3624439, 106.8240135], 17);
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         subdomains: ['a', 'b', 'c'],
         }).addTo(map);
-        // ini adalah koordinat marker
-        L.marker([-6.362141, 106.824923]).addTo(map)
-        .bindPopup("<b>Selamat Datang!</b> Di CCIT FT-UI.").openPopup();
+        L.marker([-6.3624439, 106.8240135]).addTo(map)
+        .bindPopup("<b>Selamat Datang!</b> Di Auditorium K-301 Fakultas Teknik Universitas Indonesia").openPopup();
         var popup = L.popup();
         function onMapClick(e) {
         popup
@@ -441,9 +412,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         }
         map.on('click', onMapClick);
     </script>
-
-
-    <script src="js/main.js"></script>
+    <!-- Map end -->
 </body>
 
 </html>

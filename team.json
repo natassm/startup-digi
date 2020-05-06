@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "name": "Chiesa Eftha Afandy",
+        "role": "Ketua Pelaksana",
+        "img": "1.jpg",
+	"igacc": "@chiesaafandy",
+	"igurl": "https://www.instagram.com/chiesaafandy/"
+    },
+    {
+        "id": 2,
+        "name": "Alfi Naufal",
+        "role": "Pengawas",
+        "img": "12.jpg",
+	"igacc": "@_alfinaufal",
+	"igurl": "https://www.instagram.com/_alfinaufal/"
+    },
+    {
+        "id": 3,
+        "name": "Natasha Syeikinah Marsauli",
+        "role": "Pengawas",
+        "img": "13.jpg",
+	"igacc": "@natassm",
+	"igurl": "https://www.instagram.com/natassm/"
+    },
+    {
+        "id": 4,
+        "name": "Thalia Azzahra Maharani",
+        "role": "Sekretaris",
+        "img": "2.jpg",
+	"igacc": "@thzahraa",
+	"igurl": "https://www.instagram.com/thzahraa/"
+    },
+    {
+        "id": 5,
+        "name": "Arrsyaila Nur Azizah",
+        "role": "Bendahara",
+        "img": "9.jpg",
+	"igacc": "@arrsyailaa",
+	"igurl": "https://www.instagram.com/arrsyailaa/"
+    },
+    {
+        "id": 6,
+        "name": "Ghifari Nur Athoillah P",
+        "role": "Kepala Divisi Humas",
+        "img": "3.jpg",
+	"igacc": "@ghifarinap",
+	"igurl": "https://www.instagram.com/ghifarinap/"
+    },
+    {
+        "id": 7,
+        "name": "Yovie Shubhan Maurizka",
+        "role": "Kepala Divisi Acara",
+        "img": "4.jpg",
+	"igacc": "@oohyopi",
+	"igurl": "https://www.instagram.com/oohyopi/"
+    },
+    {
+        "id": 8,
+        "name": "Bagas Ade Satria",
+        "role": "Kepala Divisi Sponsor",
+        "img": "5.jpg",
+	"igacc": "@bagasas_",
+	"igurl": "https://www.instagram.com/bagasas_/"
+    },  
+    {
+        "id": 9,
+        "name": "Muhammad Deano Brave Amor",
+        "role": "Kepala Divisi Keamanan",
+        "img": "6.jpg",
+	"igacc": "@deanoamor",
+	"igurl": "https://www.instagram.com/deanoamor/"
+    },
+    {
+        "id": 10,
+        "name": "Gifino Thoriq S",
+        "role": "Kepala Divisi Dokumentasi & Multimedia",
+        "img": "7.jpg",
+	"igacc": "@gifinothoriq",
+	"igurl": "https://www.instagram.com/gifinothoriq/"
+    },
+    {
+        "id": 11,
+        "name": "Hilman Maulana Anhar",
+        "role": "Kepala Divisi Perlengkapan",
+        "img": "8.jpg",
+	"igacc": "@hilmann_ma",
+	"igurl": "https://www.instagram.com/hilmann_ma/"
+    },
+    {
+        "id": 12,
+        "name": "Ismi Rizki Sopiyanti",
+        "role": "Kepala Divisi Konsumsi",
+        "img": "10.jpg",
+	"igacc": "@kaimiki_",
+	"igurl": "https://www.instagram.com/kaimiki_/"
+    },
+    {
+        "id": 13,
+        "name": "Yuliani",
+        "role": "Kepala Divisi Danus",
+        "img": "11.jpg",
+	"igacc": "@yuliani",
+	"igurl": "https://www.instagram.com/yuliani/"
+    }
+]
