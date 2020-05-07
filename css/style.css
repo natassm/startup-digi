@@ -5608,3 +5608,11 @@ h6 {
   font-size: 12px;
 }
 
+input.ng-invalid {
+  background-color: pink;
+}
+
+input.ng-valid {
+  background-color: lightgreen;
+}
+

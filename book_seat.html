@@ -1,118 +1,98 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>KomEvent</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>KomEvent</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-</head>
-
-<body ng-app="validationApp" ng-controller="mainController">
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-    <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-xl-3 col-lg-3">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="img/logo.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="index.html">home</a></li>
-                                            <li><a href="performer.html">Speaker</a></li>
-                                            
-                                            <li><a href="#">Pages <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about.html">About Event</a></li>
-                                                    <li><a href="Program.html">Seminar Timeline</a></li>
-                                                    <li><a href="Venue.html">Venue</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Blog <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                                <div class="buy_tkt">
-                                    <div class="book_btn d-none d-lg-block">
-                                        <a href="book_seat.html">BOOK YOUR SEAT</a>
+    <body>
+        <!-- header -->
+        <header>
+            <div class="header-area ">
+                <div id="sticky-header" class="main-header-area">
+                    <div class="container">
+                        <div class="header_bottom_border">
+                            <div class="row align-items-center">
+                                <div class="col-xl-3 col-lg-3">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img src="img/logo.png" alt="">
+                                        </a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
+                                <div class="col-xl-6 col-lg-6">
+                                    <div class="main-menu  d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="performer.html">Speaker</a></li>
+                                                <li><a href="#">Pages <i class="ti-angle-down"></i></a>
+                                                    <ul class="submenu">
+                                                        <li><a href="about.html">About Event</a></li>
+                                                        <li><a href="program.html">Seminar Timeline</a></li>
+                                                        <li><a href="venue.html">Venue</a></li>
+                                                        <li><a href="team.html">Committee</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="blog.html">Our Blog</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                    <div class="buy_tkt">
+                                        <div class="book_btn d-none d-lg-block">
+                                            <a href="book_seat.html">Book Your Seat</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mobile_menu d-block d-lg-none"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
-    </header>
-    <!-- header-end -->
-    
-     <!-- bradcam_area -->
-     <div class="bradcam_area">
-        <div class="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay">
-              <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                       <div class="col-xl-12">
-                          <div class="bradcam_text text-center">
-                            <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                <img src="img/shape/shape_1.svg" alt="">
-                            </div>
-                            <div class="shape_2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
-                                <img src="img/shape/shape_2.svg" alt="">
-                            </div>
-                                <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Book Your Seat</h3>
-                          </div>
-                       </div>
-                    </div>
-              </div>
-           </div>
-     </div>
-    <!-- bradcam_area end -->
+        </header>
+        <!-- header-end -->
 
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section">
+        <!-- bradcam_area -->
+        <div class="bradcam_area">
+            <div class="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay">
+                  <div class="container">
+                        <div class="row align-items-center justify-content-center">
+                           <div class="col-xl-12">
+                              <div class="bradcam_text text-center">
+                                <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                    <img src="img/shape/shape_1.svg" alt="">
+                                </div>
+                                <div class="shape_2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
+                                    <img src="img/shape/shape_2.svg" alt="">
+                                </div>
+                                    <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Book Your Seat</h3>
+                              </div>
+                           </div>
+                        </div>
+                  </div>
+               </div>
+         </div>
+        <!-- bradcam_area end -->
+
+        <!-- form section -->
+        <section class="contact-section">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -120,38 +100,46 @@
                         <br>
                     </div>
                     <div class="col-lg-8">
-                        <form id="form-id" class="form-contact contact_form" id="contactForm" name="userForm" ng-submit="submitForm(userForm.$valid)" novalidate="novalidate">
+                        <form id="form-id" class="form-contact contact_form" id="contactForm" ng-app="myApp" ng-controller="validationApp" ng-submit="submitForm(userForm.$valid)" name="userForm" novalidate>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <div class="form-group" ng-class="{ 'has-error' : userForm.name.$invalid && !userForm.name.$pristine }">
-                                        <!-- <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name"> -->
-                                        <label>Enter your name</label>
+                                    <div class="form-group">
+                                        <p>Enter your Name:<br>
                                         <input type="text" name="name" class="form-control" ng-model="name" required>
-                                        <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="help-block">don't forget to enter your name! :)</p>
+                                        <span style="color:red" ng-show="userForm.name.$dirty && userForm.name.$invalid">
+                                            <span ng-show="userForm.name.$error.required">Please input your name.</span>
+                                            </span>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
-                                    <div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
-                                        <!-- <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Enter email"> -->
-                                        <label>Enter email address</label>
-                                        <input type="email" name="email" class="form-control" ng-model="email" required>
-                                        <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block">don't forget to enter your email, so we can contact you!</p>
+                                    <div class="form-group">
+                                        <p>Enter your Email:<br>
+                                        <input type="text" name="email" class="form-control" ng-model="email" required>
+                                        <span style="color:red" ng-show="userForm.email.$dirty && userForm.email.$invalid">
+                                            <span ng-show="userForm.email.$error.required">Don't forget to enter your email, so we can contact you!</span>
+                                            </span>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
-                                    <div class="form-group" ng-class="{ 'has-error' : userForm.subject.$invalid && !userForm.subject.$pristine }">
-                                        <!-- <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your school / university'" placeholder="Enter your school / university"> -->
-                                        <label>Enter your school / university</label>
-                                        <input type="text" name="subject" class="form-control" ng-model="subject" required>
-                                        <p ng-show="userForm.subject.$invalid && !userForm.subject.$pristine" class="help-block">hey, you miss this one guys...</p>
+                                    <div class="form-group">
+                                        <p>Enter your School or University:<br>
+                                        <input type="text" name="study" class="form-control" ng-model="study" required>
+                                        <span style="color:red" ng-show="userForm.study.$dirty && userForm.study.$invalid">
+                                            <span ng-show="userForm.study.$error.required">Please don't forget to fill this^^</span>
+                                            </span>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
-                                    <div class="form-group" ng-class="{ 'has-error' : userForm.number.$invalid && !userForm.number.$pristine }">
-                                        <!-- <input class="form-control" name="number" id="number" type="number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter phone number'" placeholder="Enter phone number"> -->
-                                        <label>Enter phone number</label>
-                                        <input type="number" name="number" class="form-control" ng-model="number" required>
-                                        <p ng-show="userForm.number.$invalid && !userForm.number.$pristine" class="help-block">please input your phone number</p>
+                                    <div class="form-group">
+                                        <p>Enter your Phone Number:<br>
+                                        <input type="text" name="number" class="form-control" ng-model="number" required>
+                                        <span style="color:red" ng-show="userForm.number.$dirty && userForm.number.$invalid">
+                                            <span ng-show="userForm.number.$error.required">please input your phone number</span>
+                                            </span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -186,92 +174,58 @@
                 </div>
             </div>
         </section>
-    <!-- ================ contact section end ================= -->
+        <!-- form section end -->
     
-    <!-- footer_start  -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-8">
-                        <div class="footer_widget">
-                            <div class="address_details text-center">
-                                <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">10 Juni 2020</h4>
-                                <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Auditorium K-301</h3>
-                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Seminar StartUp with Digital Creative sebagai event besar pertama Komunita Android CCIT FTUI yang akan menambah pengetahuanmu.</p>
-                                <a href="book_seat.html" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">BOOK YOUR SEAT</a>
+        <!-- footer_start  -->
+        <footer class="footer">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="footer_widget">
+                                <div class="address_details text-center">
+                                    <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">10 Juni 2020</h4>
+                                    <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Auditorium K-301</h3>
+                                    <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Seminar StartUp with Digital Creative sebagai event besar pertama Komunitas Android CCIT FTUI yang akan menambah pengetahuanmu.</p>
+                                    <a href="book_seat.html" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">BOOK YOUR SEAT</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer_end  -->
-
+        </footer>
+        <!-- footer_end  -->
     
         <!-- JS here -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/ajax-form.js"></script>
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/scrollIt.js"></script>
-        <script src="js/jquery.scrollUp.min.js"></script>
         <script src="js/wow.min.js"></script>
-        <script src="js/nice-select.min.js"></script>
         <script src="js/jquery.slicknav.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/gijgo.min.js"></script>
-    
-        <!--contact js-->
-        <script src="js/contact.js"></script>
-        <!-- <script src="js/jquery.ajaxchimp.min.js"></script> -->
-        <!-- <script src="js/jquery.form.js"></script> -->
-        <script src="js/jquery.validate.min.js"></script>
-        <!-- <script src="js/mail-script.js"></script> -->
         <script src="http://code.angularjs.org/1.2.6/angular.js"></script>
-    
         <script src="js/main.js"></script>
+        <!-- JS end -->
 
         <script>
-            var validationApp = angular.module('validationApp', []);
-            // create angular controller
-            validationApp.controller('mainController', function ($scope) {
-            // function to submit the form after all validation has occurred
-            $scope.submitForm = function (isValid) {
-            // check to make sure the form is completely valid
-            if (isValid) {
-            alert('Thank you for join, we will contact you soon!');
-            }
-            };
+            var validationApp = angular.module('myApp', []);
+            validationApp.controller('validationApp', function ($scope) {
+                $scope.submitForm = function (isValid) {
+                    if (isValid) {
+                        alert('Thank you for join, we will contact you soon!');
+                        $scope.name = " ";
+                        $scope.email = " ";
+                        $scope.study = " ";
+                        $scope.number = " ";
+                        } else {
+                            alert('Please fill your data correctly!')
+                        }
+                    };
             });
         </script>
-
-        <script>
-            $("#submit-button").on("click",function(){
-                $('#form-id')[0].reset();
-            })
-        </script>
-    </body>
     
+            
+        </body>
+
     </html>
